@@ -50,7 +50,7 @@ export default function Copyright() {
           <div key={popup.id} className={`relative mb-3 whitespace-nowrap rounded-lg border border-black bg-white px-4 py-2 text-sm after:absolute after:left-1/2 after:top-full after:-translate-x-1/2 after:border-8 after:border-transparent after:border-t-black transition-opacity duration-500
             ${popup.visible ? "opacity-100" : "opacity-0"}
           `}>
-            Copyright is for losers -Banksy- {popup.id}
+            Copyright is for losers -Banksy-
           </div>
         ))}
       </div>
