@@ -22,6 +22,12 @@ export async function generateMetadata({
 
   return {
     title: `${page.title} — ransewhale.net`,
+    robots: page.hidden
+      ? {
+          index: false,
+          follow: false,
+        }
+      : undefined,
   };
 }
 
