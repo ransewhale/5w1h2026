@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="240px" view-box="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<path stroke="black" stroke-width="2" fill="yellow" d="
+		M 20 120
+		L 80 220
+		Q 120 40 160 220
+		L 220 120
+		L 192.54891025000 99.41168268749
+		A 100,50 0 0,1 47.45108975000,99.41168268749
+		L 20 120
+		Z
+	" />
+	<path stroke="black" stroke-width="2" fill="black" d="
+		M 120 45
+		L 47.45108975000,99.41168268749
+		A 100,50 0 0,0 192.54891025000,99.41168268749
+		L 120 45
+		Z
+	" />
+	<path stroke="black" stroke-width="2" fill="blue" d="
+		M 20 65
+		A 100,50 0 0,0 47.45108975000,99.41168268749
+		L 120 45
+		Q 20 -30 20 65
+		Z
+	" />
+	<path stroke="black" stroke-width="2" fill="red" d="
+		M 220 65
+		A 100,50 0 0,1 192.54891025000,99.41168268749
+		L 120 45
+		Q 220 -30 220 65
+		Z
+	" />
+	<!--
+	<path stroke="black" stroke-width="10" fill="none" d="
+		M 20 120
+		L 80 220
+		Q 120 40 160 220
+		L 220 120
+		L 120 45
+		Q 20 -30 20 65
+		A 100,50 0 1,0 220,65
+		Q 220 -30 120 45
+		L 20 120
+		Z
+	" />
+	<path stroke="black" stroke-width="1" fill="none" d="
+		M 20 65
+		A 100,50 0 1,0 220,65
+		Q 220 -30 120 45
+		Q 20 -30 20 65
+		Z
+	" />
+	// -->
+</svg>

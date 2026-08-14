@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="240px" view-box="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style type="text/css">
+
+.frame{
+  stroke-dasharray: 5000;
+  stroke-dashoffset: 0;
+  -webkit-animation: load 4s ease-in 0s;
+  animation: load 4s ease-in 0s;
+}
+
+  @-webkit-keyframes load {
+      0% {
+        stroke-dashoffset: 5000;
+      }
+      50% {
+        stroke-dashoffset: 4000;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+
+.right{
+	fill: red;
+	-webkit-animation: redding 4s ease-in 0s;
+	animation: redding 4s ease-in 0s;
+}
+
+  @-webkit-keyframes redding {
+      0% {
+        fill:transparent;
+      }
+      45% {
+        fill:transparent;
+      }
+      65% {
+      	fill:red;
+      }
+      100% {
+      	fill:red;
+      }
+    }
+
+.left{
+	fill: blue;
+	-webkit-animation: bluing 4s ease-in 0s;
+	animation: bluing 4s ease-in 0s;
+}
+
+  @-webkit-keyframes bluing {
+      0% {
+        fill:transparent;
+      }
+      35% {
+        fill:transparent;
+      }
+      55% {
+      	fill:blue;
+      }
+      100% {
+      	fill:blue;
+      }
+    }
+
+.bottom{
+	fill: yellow;
+	-webkit-animation: yellowing 3s ease-in 0s;
+	animation: yellowing 3s ease-in 0s;
+}
+
+  @-webkit-keyframes yellowing {
+      0% {
+        fill:transparent;
+      }
+      90% {
+        fill:transparent;
+      }
+      100% {
+      	fill:yellow;
+      }
+    }
+
+.center{
+	fill: black;
+	-webkit-animation: blacking 4s ease-in 0s;
+	animation: blacking 4s ease-in 0s;
+}
+
+  @-webkit-keyframes blacking {
+      0% {
+        fill:transparent;
+      }
+      90% {
+        fill:transparent;
+      }
+      100% {
+      	fill:black;
+      }
+    }
+
+
+	</style>
+	<path class="center" stroke="none" d="
+		M 120 45
+		L 47.45108975000,99.41168268749
+		A 100,50 0 0,0 192.54891025000,99.41168268749
+		L 120 45
+		Z
+	" />
+	<path class="bottom" stroke="none" d="
+		M 20 120
+		L 80 220
+		Q 120 40 160 220
+		L 220 120
+		L 192.54891025000 99.41168268749
+		A 100,50 0 0,1 47.45108975000,99.41168268749
+		L 20 120
+		Z
+	" />
+	<path class="left" stroke="none" d="
+		M 20 65
+		A 100,50 0 0,0 47.45108975000,99.41168268749
+		L 120 45
+		Q 20 -30 20 65
+		Z
+	" />
+	<path class="right" stroke="none" d="
+		M 220 65
+		A 100,50 0 0,1 192.54891025000,99.41168268749
+		L 120 45
+		Q 220 -30 220 65
+		Z
+	" />
+	<!--
+	<path class="frame" stroke="black" stroke-width="2" fill="none" d="
+		M 20 120
+		L 80 220
+		Q 120 40 160 220
+		L 220 120
+		L 120 45
+		Q 20 -30 20 65
+		A 100,50 0 1,0 220,65
+		Q 220 -30 120 45
+		L 20 120
+		Z
+	" />
+	// -->
+	<path class="frame" stroke="black" stroke-width="2" fill="none" d="
+		M 20 120
+		L 120 45
+		Q 220 -30 220 65
+		A 100,50 0 1,1 20,65
+		Q 20 -30 120 45
+		L 220 120
+		L 160 220
+		Q 120 40 80 220
+		L 20 120
+		Z
+	" />
+	<!--
+	<path stroke="black" stroke-width="1" fill="none" d="
+		M 20 65
+		A 100,50 0 1,0 220,65
+		Q 220 -30 120 45
+		Q 20 -30 20 65
+		Z
+	" />
+	// -->
+</svg>
