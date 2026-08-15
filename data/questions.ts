@@ -59,6 +59,18 @@ export const questions = [
     hidden: true,
     content: "page-whose.md",
   },
+  {
+    slug: "whence",
+    title: "WHENCE",
+    hidden: true,
+    content: "page-whence.md",
+  },
+  {
+    slug: "whither",
+    title: "WHITHER",
+    hidden: true,
+    content: "page-whither.md",
+  },
 ];
 
 

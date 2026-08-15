@@ -1,0 +1,1 @@
+Knowest thou not the meaning of this word? Consult [a dictionary](https://www.dictionary.com/browse/whither).
