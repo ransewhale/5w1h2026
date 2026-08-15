@@ -112,11 +112,29 @@ body {
 }
 
 .QandA p{
+  margin: 0 auto;
+  font-size: 16px;
+  /* text-indent: 20px; */
+  padding-top: 10px;
+}
+
+.QApage-md{
   width: 80%;
   margin: 0 auto;
   font-size: 16px;
   /* text-indent: 20px; */
   padding-top: 10px;
+}
+
+.QApage-md a{
+  text-decoration: none;
+  border-bottom: 1px dashed black;
+}
+
+.QApage-md a:hover{
+  text-decoration: none;
+  font-weight: 400;
+  border-bottom: 2px solid black;
 }
 
 .QandA-BackNav {
