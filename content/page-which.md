@@ -1,4 +1,4 @@
-You don't know which page you should visit?"
+You don't know which page you should visit?
 
 Press the icon above or the "Back" arrow below to go to the page list.
 
