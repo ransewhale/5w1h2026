@@ -58,7 +58,7 @@ export default async function Question({
   
 
   return (
-    <main className="Home mx-auto min-h-screen w-full max-w-xl flex-col">
+    <main className="Home mx-auto min-h-dvh w-full max-w-xl flex-col">
       <header className="Header">
         <Link href="/" className="RWicon">
           <Image

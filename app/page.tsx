@@ -9,7 +9,7 @@ export default function Home() {
     (question) => !question.hidden
   );
   return (
-    <main className="Home mx-auto min-h-screen w-full max-w-xl">
+    <main className="Home mx-auto min-h-dvh w-full max-w-xl">
       <header className="Header">
         <Link href="/" className="RWicon">
           <Image
