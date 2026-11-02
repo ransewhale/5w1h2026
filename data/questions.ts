@@ -71,6 +71,12 @@ export const questions = [
     hidden: true,
     content: "page-whither.md",
   },
+  {
+    slug: "whether",
+    title: "WHETHER",
+    hidden: true,
+    content: "page-whether.md",
+  },
 ];
 
 
