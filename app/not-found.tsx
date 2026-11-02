@@ -29,8 +29,10 @@ export default function NotFound() {
       </header>
 
       <QandA theme="Not Found">
-        <p>The appropriate message for the not found page is not found.</p>
-        <p>By the way, for your information, here are the words we use in questions:</p>
+        <div className="notfound-body">
+          <p>The appropriate message for the not found page is not found.</p>
+          <p>By the way, for your information, here are the words we use in questions:</p>
+        </div>
         <nav className="Navigation flex-1">
           <ul>
             {visibleQuestions.map((question) => (
@@ -41,7 +43,6 @@ export default function NotFound() {
           </ul>
         </nav>
       </QandA>
-
       <Copyright />
     </main>
   );

@@ -119,7 +119,7 @@ body {
   padding-top: 10px;
 }
 
-.QApage-md{
+.notfound-body, .QApage-md{
   width: 80%;
   margin: 0 auto;
   font-size: 16px;
