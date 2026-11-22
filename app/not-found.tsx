@@ -3,6 +3,7 @@ import Image from "next/image";
 import QandA from "@/components/QandA";
 import MenuItem from "@/components/MenuItem";
 import Copyright from "@/components/Copyright";
+import Suggest from "@/components/Suggest";
 import { questions } from "@/data/questions";
 
 export function generateMetadata(){
@@ -31,6 +32,7 @@ export default function NotFound() {
       <QandA theme="Not Found">
         <div className="notfound-body">
           <p>The appropriate message for the not found page is not found.</p>
+          <Suggest />
           <p>By the way, for your information, here are the words we use in questions:</p>
         </div>
         <nav className="Navigation flex-1">
