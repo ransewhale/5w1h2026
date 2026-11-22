@@ -3,11 +3,11 @@ import { suggest } from "./suggest";
 
 describe("suggest", () => {
     const candidates = [
-        { slug: "who", title: "WHO", hidden: true },
-        { slug: "which", title: "WHICH", hidden: true },
-        { slug: "whither", title: "WHITHER", hidden: false },
-        { slug: "whether", title: "WHETHER", hidden: false },
-        { slug: "why", title: "WHY", hidden: false },
+        { slug: "who", title: "WHO", hidden: true, content: "who page" },
+        { slug: "which", title: "WHICH", hidden: true, content: "which page" },
+        { slug: "why", title: "WHY", hidden: false, content: "why page" },
+        { slug: "whither", title: "WHITHER", hidden: false, content: "whither page" },
+        { slug: "whether", title: "WHETHER", hidden: false, content: "whether page" },
     ];
 
     it("returns a suggestion when there is a unique candidate within the threshold", () => {

@@ -3,9 +3,9 @@ import { rankCandidates } from "./rank";
 
 describe("rankCandidates", () => {
     const candidates = [
-        { slug: "who", title: "WHO", hidden: true },
-        { slug: "which", title: "WHICH", hidden: true },
-        { slug: "why", title: "WHY", hidden: false },
+        { slug: "who", title: "WHO", hidden: true, content: "who page" },
+        { slug: "which", title: "WHICH", hidden: true, content: "which page" },
+        { slug: "why", title: "WHY", hidden: false, content: "why page" },
     ];
 
     it("adds OSA distance to each candidate", () => {
